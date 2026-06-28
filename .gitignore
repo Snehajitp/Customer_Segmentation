@@ -1,0 +1,36 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# Artifacts generated during training
+src/artifacts/
+artifacts/
+
+# Dataset (optional if large)
+*.csv
+
+# Keep notebooks if you want
+# notebooks/
+
+# OS files
+.DS_Store
+Thumbs.db
