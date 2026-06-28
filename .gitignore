@@ -1,36 +1,70 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
 # Virtual Environment
 .venv/
 venv/
 env/
 
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
 
+# ===========================
 # Jupyter
+# ===========================
 .ipynb_checkpoints/
 
-# VS Code
-.vscode/
-
+# ===========================
 # Logs
+# ===========================
 logs/
 *.log
 
-# Environment variables
+# ===========================
+# Environment Variables
+# ===========================
 .env
 
-# Artifacts generated during training
+# ===========================
+# Training Artifacts (Ignore)
+# ===========================
 src/artifacts/
-artifacts/
 
-# Dataset (optional if large)
-*.csv
+# ===========================
+# Cache
+# ===========================
+.pytest_cache/
+.mypy_cache/
 
-# Keep notebooks if you want
-# notebooks/
-
-# OS files
+# ===========================
+# Operating System
+# ===========================
 .DS_Store
 Thumbs.db
+
+# ===========================
+# Build Files
+# ===========================
+build/
+dist/
+*.egg-info/
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.bak
+
+# ===========================
+# Large Dataset (Optional)
+# Uncomment if you don't want to upload datasets
+# ===========================
+# notebooks/marketing_campaign.csv
+# notebooks/data/
